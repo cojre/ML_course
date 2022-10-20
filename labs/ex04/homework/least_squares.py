@@ -5,7 +5,7 @@ Least Squares Solutions
 """
 
 import numpy as np
-
+from costs import *
 
 def least_squares(y, tx):
     """Calculate the least squares solution.
