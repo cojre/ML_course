@@ -9,12 +9,12 @@ import numpy as np
 
 def ridge_regression(y, tx, lambda_):
     """implement ridge regression.
-    
+
     Args:
         y: numpy array of shape (N,), N is the number of samples.
         tx: numpy array of shape (N,D), D is the number of features.
         lambda_: scalar.
-    
+
     Returns:
         w: optimal weights, numpy array of shape(D,), D is the number of features.
 
@@ -35,4 +35,3 @@ def ridge_regression(y, tx, lambda_):
     # # ***************************************************
     # raise NotImplementedError
     ### END SOLUTION
-
